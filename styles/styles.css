@@ -17,13 +17,26 @@ h1 {
   color: steelblue;
 }
 img {
-  width: 800px;
-  border: 4px solid steelblue;
+  width: 700px;
+  border: 2px solid #000541ee;
 }
 p {
   padding: 10px;
 }
 footer {
-  background-color: rgb(5, 72, 126);
+  background-color: rgb(1, 64, 115);
   color: white;
 }  
+.main-para {
+  font-size: 1.2em;
+  line-height: 1.0em;
+}
+#active {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+#byui {
+  background-color: #000541ee;
+  color: rgb(255, 255, 255);
+}
