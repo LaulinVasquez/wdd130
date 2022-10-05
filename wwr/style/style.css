@@ -17,13 +17,13 @@ nav a{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;  
-    color:#1f2041; 
+    color:white; 
     
 }
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100%;    
+    margin-top: 100px;    
 }
 #hero-img{
     width: 100%;
@@ -51,7 +51,7 @@ main section{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-column: 10fr;
 }
 #background{
     height: 725px;
@@ -197,3 +197,4 @@ footer p a:hover{
 footer .social img{
     padding-top: 15px;
 }
+
