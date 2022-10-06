@@ -17,7 +17,7 @@ nav a{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;  
-    color:white; 
+    color:#119da4; 
     
 }
 #hero-msg{
@@ -97,11 +97,10 @@ nav a:hover{
 }
 .book:hover, .join:hover{
     background-color: #4b3f72;
-    color: white;
+    color: rgb(39, 33, 33);
 }
 .msg{
     background-color: #f3e4c6;
-    font-size: .8em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -174,6 +173,7 @@ body{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 footer{
     background-color: #4b3f72;
     color: #ffc857;
@@ -218,6 +218,7 @@ footer .social img{
     }
     #hero-msg h4 {
         display: none;
+        
     }
     .home-title {
         font-size: 25px;
