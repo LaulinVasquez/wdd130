@@ -6,8 +6,6 @@
 }
 nav{
     line-height: 25px;
-    background-color: rgb(166, 165, 165);
-    color: rgb(255, 255, 255);
     text-align: left;
     display: grid;
     grid-column: auto;
@@ -17,6 +15,6 @@ nav{
 
 nav :hover{
     font: 1em sans-serif;
-    background-color: black;
+    background-color: #119DA4;
     color: white;
 }
