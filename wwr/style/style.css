@@ -241,3 +241,15 @@ footer .social img{
     }
 }
  
+.rivers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.river-text1{
+    grid-row: 2/1;
+    grid-column: 1/2;
+    
+    
+}
+
+
