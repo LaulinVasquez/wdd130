@@ -240,32 +240,35 @@ footer .social img{
         margin-top: 25px;
     }
 }
- 
-.rivers-grid{
+ /* This is the css for the Rivers page */
+.general-1{
     display: grid;
-    grid-template-columns: repeat(auto, 1fr);
-    
+    grid-template-columns: repeat(2,1fr);
+    background-color: #f3e4c6;
+    text-align: left;
+    margin: auto;
+}
+.idaho{
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .river-image{
-    grid-row: 2/3
-
-}
-.paragrapha-1{
-    grid-row: 2/3;
-    grid-column: 1/auto;
+    grid-column: 2/3;   
 }
 
 .desolation-gray-canyon{
-    grid-column: 2/2;
-    grid-row: 2/2
-}
-
-.grand-canyon{
-    grid-row: 3/3;
-    grid-column: 1/2;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 .canyon-image{
     grid-column: 1/2;
-    grid-column: 3/;
-    
+}
+
+.grand-canyon{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+.arizona-canyon{
+    grid-column: 2/3;
 }
