@@ -241,12 +241,14 @@ footer .social img{
     }
 }
  /* This is the css for the Rivers page */
+
+ 
 .general-1{
+    font-family: 'Oswald', 'Raleway', sans-serif;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: #f3e4c6;
     text-align: left;
-    margin: auto;
 }
 .idaho{
     grid-column: 1/2;
@@ -271,4 +273,10 @@ footer .social img{
 }
 .arizona-canyon{
     grid-column: 2/3;
+}
+
+.paragrapha-1, .paragrapha-2, .paragrapha-3{
+    font-size: 30px;
+    font-family: "Relaway";
+    
 }
