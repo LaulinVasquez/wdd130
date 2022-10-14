@@ -7,6 +7,7 @@
 }
 #content{
     max-width: 1600px;
+    margin: 0 auto;
     
 }
 nav a{
@@ -198,6 +199,79 @@ footer .social img{
     padding-top: 15px;
 }
 
+ /* This is the css for the Rivers page */
+
+ 
+ .general-1{
+    font-family: 'Oswald', 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    text-align: left;
+    grid-gap: 80px;
+    margin: 15px;
+
+
+}
+/* Main Fork of The salmon river, Idaho */
+.main-fork{
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+.river-image{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: block;
+    padding-top: 180px;
+}
+.paragrapha-1 h1{
+    margin-bottom: 50px;
+    font-family: "Oswald";
+    border: solid black 1px;
+    border-radius: 30px;
+    background-color: #119da4
+}
+/* Desolation and gray Canyon, Utah */
+.desolation-gray-canyon{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 15px;
+}
+.canyon-image{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-top: 290px;
+}
+.paragrapha-2 h1{
+    margin-bottom: 50px;
+    font-family: "Oswald";
+    border: solid black 1px;
+    border-radius: 30px;
+    background-color: #1f2041;
+    color: #f3e4c6;
+}
+/* Grand Canyon, Arizona */
+.grand-canyon{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.arizona-canyon{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-top: 150px;
+    padding-left: 15px;
+}
+.paragrapha-3 h1{
+    margin-bottom: 75px;
+    font-family: "Oswald";
+    border: solid black 1px;
+    border-radius: 30px;
+    background-color: #f3e4c6;
+}
+.paragrapha-1, .paragrapha-2, .paragrapha-3 {
+    font-size: 30px;    
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -240,43 +314,4 @@ footer .social img{
         margin-top: 25px;
     }
 }
- /* This is the css for the Rivers page */
 
- 
-.general-1{
-    font-family: 'Oswald', 'Raleway', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: #f3e4c6;
-    text-align: left;
-}
-.idaho{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.river-image{
-    grid-column: 2/3;   
-}
-
-.desolation-gray-canyon{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-.canyon-image{
-    grid-column: 1/2;
-}
-
-.grand-canyon{
-    grid-column: 1/2;
-    grid-row: 3/4;
-
-}
-.arizona-canyon{
-    grid-column: 2/3;
-}
-
-.paragrapha-1, .paragrapha-2, .paragrapha-3{
-    font-size: 30px;
-    font-family: "Relaway";
-    
-}

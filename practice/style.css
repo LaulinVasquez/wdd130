@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, auto);   
+    background-color: black; 
+}
+
+.circles{
+    grid-column: 1/10;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.desk{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.person{
+    grid-column: -6/-5;
+    grid-row: 2/3;
+}
+
+.graphic{
+    grid-column: -8/-7;
+    grid-row: 2/3;
+}
+
+.graphic, .desk, .person{
+    margin: 10px;
+    border: solid black;
+    border-radius: 100%;
+    background-color: aqua;
+}
