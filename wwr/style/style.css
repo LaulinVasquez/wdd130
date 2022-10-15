@@ -281,7 +281,7 @@ footer .social img{
     right: 0;
     padding: .5em;
     /* This elemnt is invisible until we are ready for it */
-    
+    display: block;
 }
 
 
