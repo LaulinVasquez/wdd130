@@ -292,12 +292,12 @@ footer .social img{
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 0 auto;
     /* Form outline */
     padding: 1em;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 1em;
-    
+    background-color: #f3e4c6;
   }
   
   ul {
