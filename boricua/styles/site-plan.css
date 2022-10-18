@@ -223,16 +223,13 @@ nav a:hover {
 main{
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: ;
 }
 
 #fortaleza-image{
-  background-color: ;
   grid-column: 1/2;
   grid-row: 1/2;
   width: 50%;
   align-content: center;
-  
 }
 
 #introduction-home-page{
