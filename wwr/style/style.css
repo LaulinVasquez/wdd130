@@ -292,7 +292,7 @@ footer .social img{
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 0 auto;
+    width:  auto;
     /* Form outline */
     padding: 1em;
     border: 1px solid rgb(0, 0, 0);
@@ -325,8 +325,9 @@ form {
     font-family: 'Raleway', 'Oswald', sans-serif;
   
     /* Uniform text field size */
-    width: 350px;
+    width: 300px;
     box-sizing: border-box ;
+    border-radius: 15px;
       
     /* Match form field borders */
     border: 1px solid #4b3f72;
