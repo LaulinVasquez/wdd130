@@ -366,7 +366,7 @@ form {
         height: auto;
     }
     nav, footer {
-        flex-direction: column;
+        flex-direction: row;
     }
     nav a {
         display: block;

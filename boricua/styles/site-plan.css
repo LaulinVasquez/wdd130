@@ -30,10 +30,11 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   font-size: 18px;
   text-align: center;
+  padding: 0px;
 }
 img {
   display: block;
@@ -52,19 +53,43 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: .1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+#principal_header{
+  padding: 1px;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
   display: grid;
   grid-template-columns: 150px auto;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: -1400;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
   border-radius: 20px;
+}
+footer{
+  background-color: #003049;
+  color: white;
+  padding: 20px 20px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}
+
+footer p a:hover{
+  text-decoration: underline;
+}
+footer .social img{
+  padding-top: 15px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -211,6 +236,13 @@ nav a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+#welcome p :hover{
+  display: block;
+  color:white;
+  padding: 25px;
+  background-color: #003049;
+  border-radius: 40px;
+}
 /* Image with food */
 .pincho-image{
   width: 100%;
@@ -220,24 +252,31 @@ nav a:hover {
   padding-top: 70px;
 }
 /* 3rd Grid to posionate paragraph and pictures */
-main{
+#home-grid{
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 760px auto;
 }
 
 #fortaleza-image{
-  grid-column: 1/2;
+  grid-column: 2/3;
   grid-row: 1/2;
   width: 50%;
-  align-content: center;
+  align-content: right;
 }
 
 #introduction-home-page{
-  width: 100%;
-  margin: 10px;
+  width: 70%;
+  margin: 1px;
   border: solid 1px #C1121F;
 }
 #tropical_challenge{
   grid-row:2/3;
-  grid-column:1/2;
+  grid-column:2/3;
+  width: 40%;
+  border: 1px solid #003049;
+  padding-left: 100px;
+}
+#tropical_challenge p{
+  text-align: right;
+  margin-left: 40px;
 }
