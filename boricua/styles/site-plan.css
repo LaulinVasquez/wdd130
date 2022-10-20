@@ -23,7 +23,6 @@ Fonts are separated by a | */
   --nav-link-color: #FDF0F5;
   --nav-background-color: #780000;
   --nav-hover-link-color: rgb(0, 0, 0);
-  --nav-hover-background-color: ;
 }
 
 
@@ -31,7 +30,7 @@ Fonts are separated by a | */
 
 body {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: auto;
   font-size: 18px;
   text-align: center;
   padding: 0px;
@@ -66,7 +65,8 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   border-radius: 20px;
-  margin-top: -1400;
+  margin-top: 0;
+  width: 100%;
 }
 
 nav {
@@ -80,21 +80,19 @@ footer{
   padding: 20px 20px;
   margin-top: 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content:  space-around ;
   align-items: center;
   border-radius: 30px;
 }
-
-footer p a:hover{
-  text-decoration: underline;
+footer a{
+  color: #FDF0F5;
+  font-family: "Gemunu Libre" , sans-serif;
+  font-size: 150%;
 }
-footer .social img{
-  padding-top: 15px;
+header  h1, h2 {
+  color: #780000;
+  font-size: xx-large;
 }
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
@@ -254,34 +252,71 @@ nav a:hover {
 /* 3rd Grid to posionate paragraph and pictures */
 #home-grid{
   display: grid;
-  grid-template-columns: 760px auto;
+  grid-template-columns: 760px 1fr;
 }
 
 #fortaleza-image{
-  grid-column: 2/3;
+  grid-column: 1/2;
   grid-row: 1/2;
-  width: 50%;
-  align-content: right;
+  margin-right: 10px;
+  margin-top: 87px;
+  padding-bottom: 40px;
 }
 
 #introduction-home-page{
-  width: 70%;
-  margin: 1px;
-  border: solid 1px #C1121F;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 40px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#introduction-home-page p{
+  text-align: left;
 }
 #tropical_challenge{
-  grid-row:2/3;
-  grid-column:2/3;
-  width: 60%;
-  /* border: 1px solid #003049; */
-  padding-left: 40%;
+  width: 100%;
+  margin-left: 5%;
+  padding-top: 50px;
+  grid-column: 1/2;
 }
 #tropical_challenge p{
-  text-align: right;
-  margin-left: 40px;
-  
+  text-align: left;
+  margin-right: 180px;
+  font-size: 30px;
+}
+#tropical_challenge h2{
+  text-align: left;
 }
 #tropical_image {
-  margin-right: 40px;
+  margin-top: 70px;
+  margin-left: 2px;
+  padding-left: 110px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#tropical_image a{
+  color: #000000;
+  font-size: 15px;
+}
+#background{
+  width: 50%;
+
   background-color: #003049;
+  border-radius: 25px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: -1;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+#background2{
+  margin-top: 70px;
+  width: 100%;
+  background-color: #780000;
+  border-radius: 25px;
+  grid-column: 2/-2;
+  grid-row: 2/3;
+  z-index: -1;
+  box-shadow: 10px 10px 10px #000000;
 }
