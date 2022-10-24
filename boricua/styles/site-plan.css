@@ -363,11 +363,13 @@ nav a:hover {
 #zipline{
   grid-row: 2/3;
   grid-column: 3/4;
+  margin-top: 45px;
 }
 
 #mountain{
   grid-row: 2/3;
   grid-column: 5/6;
+  margin-top: 45px;
 }
 
 #background-places{
