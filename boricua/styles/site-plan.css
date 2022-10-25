@@ -331,8 +331,8 @@ nav a:hover {
 
 #places_introduction p{
   margin-left: 40%;
-  text-size-adjust: 300px;
 }
+
 .places-and-culture-grid{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
