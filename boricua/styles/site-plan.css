@@ -252,7 +252,7 @@ nav a:hover {
 /* 3rd Grid to posionate paragraph and pictures */
 #home-grid{
   display: grid;
-  grid-template-columns: 760px 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 #fortaleza-image{
