@@ -451,10 +451,11 @@ nav a:hover {
   margin-top: 75%;
   grid-column: 1/2;
 }
-#social-media h1{
+#social-media h2{
   text-align: left;
   padding-left: 2%;
-  font-size: 180%;
+  font-size: 190%;
+  color: white;
 }
 #social-media a{
   padding: 10px 15px;
