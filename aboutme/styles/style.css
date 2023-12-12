@@ -4,18 +4,15 @@
     --sub-heading-font: "Libre Baskerville", Dosis, sans-serif;
     --paragraph: "Nunito";
 }
-body{
-
-}
 
 header{
-    background-image: url("https://urbandesignforum.org/wp-content/uploads/Headline-Image-thumbnail.jpeg") ;
+    background: url("https://images.unsplash.com/photo-1585412168334-8fa91429cc64?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5pZ2h0JTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D")  ;
     background-size: cover;
     display: block;
     height: 250px;
     color: white;
     text-align: center;
-    font-family: var(--heading-font);
+    font-family: var(--paragraph);
     font-size: 20px;
 }
 header h1{
@@ -24,6 +21,11 @@ header h1{
     left: 35%;
     border: solid white 1px;
     width: 40%;
+}
+#laurin-image{
+    float: left;
+    padding-right: 20px;
+    width:200px;
 }
 p{
     font-family: var(--paragraph);
