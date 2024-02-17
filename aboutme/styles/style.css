@@ -35,14 +35,9 @@ h2{
     font-family: var(--sub-heading-font);
 } 
 
-footer{
-    background-color: rgb(3, 3, 28);
-    color: white;
-    padding: 3px;
-}
 .logo{
-    border-radius: 5px;
-    
+
+    border-radius: 5px 
 }
 @media screen and (max-width: 420px){
     body{
@@ -51,11 +46,11 @@ footer{
     }
     header h1{
         top: 20%;
-        width: 50%;
+        width: 45%;
+        left: 30%;
     }
-    footer{
-        
-        background-color: white;
-        color: rgb(3, 3, 28);
+    #github{
+        border-radius: 25px;
+        filter: invert(1);
     }
 }
