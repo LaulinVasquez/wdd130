@@ -125,7 +125,7 @@ nav a:hover{
     font-family: 'Oswald', 'Raleway', sans-serif;
     font-size: 2em;
 }
-msg p{
+.msg p{
     font-size: .8em;
     padding-bottom:  15px;
 }
@@ -133,11 +133,11 @@ msg p{
     margin: 200px 0;
 }
 .card-img{
-    border: 5px solid #1f2041;
-    transition: transform .5s;    
+    border: 5px solid #3c3c51;
+    transition: transform .59s;    
 }
 .card-img:hover{
-    opacity: .6;
+    opacity: .7;
     transform: scale(.1);    
 }
 main section img{
